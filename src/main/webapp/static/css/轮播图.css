@@ -1,0 +1,77 @@
+
+
+/*焦点图*/
+.banner {
+    width: 100%;
+    height: 600px;
+    /* float: left; */
+ 
+}
+.banner .top_slide_wrap {
+    width: 100%;
+    height: 530px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.num{
+    position: absolute;
+    bottom: 10px;
+    right: 690px;
+    z-index: 2;
+}
+.num li{
+    float: left;
+    width: 15px;
+    height: 15px;
+    line-height: 30px;
+    border-radius: 50%;
+    background: #ccc0b3;
+    text-align: center;
+   margin: 0 4px;
+    font-weight: bolder;
+}
+.num li a{
+    color: #000;
+}
+.num li:hover,.num  .active{
+    background: #ff3c3c;
+}
+.num li:hover a,.num  .active a{
+    color: #fff;
+}
+
+
+/* 焦点图左右按钮
+.op_btns {
+    position: absolute;
+    bottom: 200px;
+    right: 0px;
+    width: 700px;
+    margin-top: -300px;
+    z-index: 3;
+}
+.op_btns .op_btn {
+    display: block;
+    float: left;
+    width: 32px;
+    height: 60px;
+    cursor: pointer;
+    margin-top: 80px;
+}
+.op_btns_1{
+	width: 700px;
+	position: relative;
+}
+.banner .op_btns .op_prev {
+    background: url(../img/b_left.png) no-repeat center top;
+    position: absolute;
+   left: -800px;
+    top: -180px;
+}
+.banner .op_btns .op_next {
+    background: url(../img/b_right.png) no-repeat center top;
+    position: absolute;
+   right: 0px;
+    top: -180px;
+} */

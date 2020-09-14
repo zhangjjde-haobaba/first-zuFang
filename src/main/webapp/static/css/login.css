@@ -1,0 +1,238 @@
+/*--------------------------登录页主体------------------------------*/
+#sec_body{
+	border-top: 1px solid #FFA000;
+	padding: 20px 0px 30px 0px;
+	background: url(../img/login_back_ziru.jpg) no-repeat;
+	background-size: 100% 100%;
+	height: 450px;
+}
+.inner_body{
+	width: 980px;
+	margin: 0 auto;
+	
+}
+.sec_form_tag{
+	width: 330px;
+	padding-top: 40px;
+}
+.sec_form_tag h3{
+	font-size: 14px;
+	color: #666;
+	font-weight: bold;
+	line-height: 30px;
+}
+.sec_form_tag a{
+	font-size: 14px;
+	color: #06c;
+	line-height: 30px;
+}
+.sec_form_tag a:hover{
+	color: #f60;
+}
+.sec_form_item{
+	height: 18px;
+	width: 225px;
+	/* border: 1px solid red; */
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	line-height: 24px;
+	padding: 14px 18px;
+}
+.sec_form_item .userHead{
+	display: inline-block;
+	height: 24px;
+	width: 24px;
+	vertical-align: middle;
+	background: url(../img/userHead.png) no-repeat;
+	background-size: 100% 100%;
+}
+.sec_form_item .userLock{
+	display: inline-block;
+	height: 24px;
+	width: 24px;
+	vertical-align: middle;
+	background: url(../img/lock.png) no-repeat;
+}
+.sec_form_item input{
+	vertical-align: middle;
+	width: 230px;
+	height: 28px;
+	border: 0px none;
+	line-height: 24px;
+	font-size: 14px;
+	padding-left: 20px;
+}
+
+.sec_form_auto{
+	width: 262px;
+	padding-top: 5px;
+	margin-bottom: 15px;
+}
+.sec_form_auto a{
+	color: #666;
+}
+.sec_form_auto .forget_Pwd{
+	color: #FFA000;
+}
+.sec_form_auto .forget_Pwd:hover{
+	text-decoration: underline;
+}
+.sec_more_font{
+	color: #666;
+	font-size: 12px;
+	padding: 15px 0px;
+}
+.sec_more_type{
+	height: 35px;
+	line-height: 35px;
+	/*border: 1px solid red;*/
+}
+.sec_more_type li a{
+	display: inline-block;
+	margin-right: 15px;
+	width: 35px;
+	height: 35px;
+	/*border: 1px solid green;*/
+}
+/*9月12日 注释如下内容 上*/
+/*.sec_more_type li:nth-of-type(1) a{
+	background: url(../img/qqf.png) no-repeat;
+	background-size: 100% 100%;
+}
+.sec_more_type li:nth-of-type(2) a{
+	background: url(../img/wbf.png) no-repeat;
+	background-size: 100% 100%;
+}
+.sec_more_type li:nth-of-type(3) a{
+	background: url(../img/zhif.png) no-repeat;
+	background-size: 100% 100%;
+}
+.sec_more_type li:nth-of-type(4) a{
+	background: url(../img/wxf.png) no-repeat;
+	background-size: 100% 100%;
+}
+.sec_more_type li:nth-of-type(1) a:hover{
+	background: url(../img/qqt.png) no-repeat;
+	background-size: 100% 100%;
+}
+.sec_more_type li:nth-of-type(2) a:hover{
+	background: url(../img/wbt.png) no-repeat;
+	background-size: 100% 100%;
+}
+.sec_more_type li:nth-of-type(3) a:hover{
+	background: url(../img/zhit.png) no-repeat;
+	background-size: 100% 100%;
+}
+.sec_more_type li:nth-of-type(4) a:hover{
+	background: url(../img/wxt.png) no-repeat;
+	background-size: 100% 100%;
+}*/
+/*9月12日 注释如下内容 下*/
+.sec_load_more{
+	height: 35px;
+	line-height: 35px;
+	color: #666;
+	vertical-align: middle;
+}
+/*9月12日 注释如下内容 上*/
+/*.sec_load_more span{
+	display: inline-block;
+	background: url(../img/loadMore.png) no-repeat;
+	width: 20px;
+	height: 15px;
+	margin-left: 5px;
+	background-size: 100% 100%;
+	vertical-align: middle;
+}*/
+/*9月12日 注释如下内容 下*/
+
+.form_login{
+	/* 添加 */
+	width: 300px;
+	height: 350px;
+	background-color: #FFFFFF;
+	padding: 20px 14px 20px 42px;
+	position: absolute;
+	top: 120px;
+	left: 925px;
+}
+
+.sec_form_item{
+	/* width: 200px; */
+	/* border: 2px solid blue; */
+	height: 20px;
+	width: 225px;
+	border-radius: 9px;
+	
+}
+#name{
+	height: 20px;
+	width: 170px;
+}
+#pwd{
+	/* border: 2px solid blue; */
+	height: 20px;
+	width: 170px;
+}
+.sec_form_header{
+	color: #666;
+	text-align: center;
+	margin-top: -30px;
+	margin-bottom: 20px;
+	margin-right: 71px;
+}
+.sec_form_header .hx{
+	color: #E6E6E6;
+}
+.sec_form_header .wz{
+	color: #999;
+}
+.sec_form_btn{
+	width: 262px;
+	height: 50px;
+	border: 0px none;
+	border-radius: 9px;
+	background-color: #FFA000;
+	font-size: 16px;
+	color: #fff;
+	cursor: pointer;
+	line-height: 50px;
+}
+.ziroom-login-confrim{
+	margin-top: 20px;
+}
+.ziroom-login-confrim .login_is_agree{
+	color: #999;
+}
+.ziroom-login-confrim .agree{
+	color: #FFA000;
+}
+.ziroom-login-confrim .agree:hover{
+	text-decoration: underline;
+}
+/* .clearfix::after {
+	display: block;
+	visibility: hidden;
+	clear: both;
+	height: 0;
+	content: ".";
+} */
+.modal-content .bottom {
+	font-size: 14px;
+	line-height: 14px;
+}
+.control-group {
+	margin-top: 20px;
+	position: relative;
+}
+.tc {
+	text-align: center;
+}
+#toSignup{
+	color: #FFA000;
+}
+#toSignup:hover{
+	text-decoration: underline;
+}
+
+

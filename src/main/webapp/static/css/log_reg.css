@@ -1,0 +1,192 @@
+/*--------------------------登录和注册的公有样式------------------------------*/
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-size: 12px;
+	background-color: #FCFCFC;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.f_l{
+	float: left;
+}
+.f_r{
+	float: right;
+}
+.clear:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+/*--------------------------头部导航样式------------------------------*/
+#top_nav{
+	padding: 15px;
+	background-color: #FFF;
+	border-bottom: 1px solid #999;
+	box-shadow: 0px 3px 5px #ccc;
+}
+#top_nav img{
+	height: 55px;
+	width: auto;
+}
+.inner_nav{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	/*border: 1px solid red;*/
+}
+.top_font{
+	margin: 10px 0px;
+}
+.top_font span, .top_font a{
+	color: #999;
+	vertical-align: middle;
+	line-height: 20px;
+}
+.top_font span a{
+	color: #06c;
+}
+.top_font span a:hover{
+	color: #f60;
+}
+.top_font>a{
+	margin-left: 20px;
+	color: #333;
+}
+.help_lpic,.help_rpic{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin: 0 4px;
+	vertical-align: middle;
+}
+/*9月12日注释 上*/
+/*.help_lpic{
+	background: url(../img/runbun.png) no-repeat;
+	background-size: 100% 100%;
+}*/
+/*9月12日注释 下*/
+.help_rpic{
+	background: url(../img/turnb.png) no-repeat;
+	background-size: 100% 100%;
+}
+.top_help{
+	width: 98px;
+	border: 1px solid #ccc;
+	z-index: 1;
+	position: absolute;
+	top: 4px;
+	right: 0px;
+	padding-top: 25px;
+}
+.top_help_list{
+	background-color: #fff;
+	display: none;
+}
+.top_help_list li a{
+	display: block;
+	height: 25px;
+	padding-left: 25px;
+	border-top: 1px solid #eee;
+	line-height: 25px;
+	color: #333;
+}
+.top_help_list li a:hover{
+	color: #f60;
+}
+.top_help:hover .top_help_list{
+	display: block;
+}
+/*--------------------------尾部导航样式------------------------------*/
+#footer_nav{
+	width: 980px;
+	margin: 20px auto;
+	text-align: center;
+}
+#footer_nav p{
+	margin-top: 10px;
+	color:#666;
+}
+#footer_nav p a{
+	color: #333;
+}
+#footer_nav p a:hover{
+	color: #f60;
+}
+
+/* 尾部 */
+#footer {
+	padding: 20px 0px;
+	background: #fafafa;
+	line-height: 20px;
+	border-top: solid 1px #ccc;
+}
+
+#footer .area {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#footer .clearfix{
+	padding: 20px;
+}
+
+#footer .glbLeft {
+	width: 700px;
+}
+
+#footer .glbRight {
+	width: 300px;
+	float: right;
+}
+
+#footer .fList {
+	float: left;
+	width: 180px;
+}
+
+#footer .fList dt {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 35px;
+}
+#footer .fList dd a {
+	color: #333333;
+	display: block;
+	font-size: 12px;
+	line-height: 24px;
+	-moz-transition: all .2s ease-in;
+	-o-transition: all.2s ease-in;
+	transition: all .2s ease-in;
+}
+
+#footer .fList dd a:hover {
+	padding-left: 10px;
+	color: #FFA000;
+}
+
+#footer .glbRight .img {
+	float: right;
+	text-align: center;
+	margin-left: 20px;
+}
+
+#footer .glbRight .img img {
+	width: 100px;
+	height: 100px;
+}
+.linksFooter{border-top: solid 1px #eee; border-bottom: solid 1px #eee; line-height: 47px; height: 47px; overflow: hidden;
+margin: 15px auto;}
+.linksFooter dt{float: left; margin-right: 10px; text-align: center;}
+.linksFooter dd{float: left; width: 700px;}
+.linksFooter dd a{display: inline-block; margin: 0 5px;}
+.footerBottom{padding-left: 200px;/* background:url(../img/zuixinbailogo.PNG) no-repeat left center; */height: 38px;  padding-top: 5px; margin: 120px -190px;}

@@ -1,0 +1,275 @@
+ * {
+	 padding: 0px;
+	 margin: 0px;
+ }
+ 
+ li {
+	 list-style: none;
+ }
+ 
+ a {
+	 text-decoration: none;
+ }
+ .body {
+	 font-size: 16px;
+	 font-family: 微软雅黑;
+	 
+ }
+.header {
+	height:68px ;
+	/* border-bottom: pink 3.5px solid; */
+	
+}
+ 
+.logo img {
+	float: left;
+	width:210px ;
+	height:28px ;
+	margin-left: 198px;
+	padding-top: 21px;
+	padding-bottom: 10px;
+	
+	
+}
+ .two li {
+	 float: left;
+	/* margin-left: 42; */
+	 padding: 25px 42px;
+ }
+ 
+ 
+ .tree {
+	 display: none;
+ }
+ .logo_next_next ul li a {
+	 float: left;
+	 padding: 25px 19px ;
+	 font-size: 16px;
+     color: #666666;
+	 
+ }
+ .logo_next_next ul li a:hover {
+	  color: #ffa000;
+ }
+ 
+ .logo_last ul li a {
+	 float: left;
+	 margin-left: 25px;
+	 padding:25px 8px;
+	 font-size: 16px;
+	 color: #666666;
+	 
+ }
+ .logo_last ul li a:hover {
+	 color: #ffa000;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+.logo_ewm {
+	height:340px ;
+	width:1200px ;
+	margin: 0px auto;
+	border-bottom:#E8E8E8 solid 1px;
+	/* border-bottom-width:1px;
+	border-bottom-style:; */
+	margin-top: 50px;
+}
+.logo_ewm1 {
+	width: 599px;
+	float: left;
+	border-right: #E8E8E8 solid 1px;
+	/* padding-top: 50px;
+	padding-left:250px; */
+	 
+}
+ .logo_ewm2 {
+	width: 599px;
+	 float: left;
+	/* padding-top: 50px;
+	 padding-left: 330px; */
+	 
+ }
+ h1{
+	 /* display: block; */
+	/* width: 599px;
+	 height:56px; */
+	 text-align: center;
+	 color: #000000;
+	 font-family: 微软雅黑;
+ }
+.logo_ewm1 img{
+	  padding: 14px 210px;
+ }
+ 
+ .logo_ewm2 img {
+	 padding: 14px 199px;
+ }
+
+
+ 
+ .holo {
+	 width:1200px;
+	 height:600px;
+	border-bottom-color:#E8E8E8;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	 margin: 0px auto;
+	 margin-top: 70px;
+ }
+ .holo_header {
+	 height: 65px;
+	 width: 1200px;
+	 text-align: center;
+	 font-size: 30px;
+	 color: #333333;
+	 font-style: 微软雅黑;
+ }
+ .holo_header_next {
+	 text-align: center;
+	 width: 1200px;
+	 height: 34px;
+	 color: FFFFFF;
+	 margin-top: 12px;
+ }
+ .slide_box1 li {
+	padding: 0px 110px;
+ }
+ 
+ 
+ .holo_p p {
+	 /* text-align: center; */
+	 padding: 25px 105px;
+	 color: #999999;
+	 font-size: 14px;
+
+ }
+ 
+ 
+ 
+.wum {
+	 width: 1200px;
+	 height: 300px;
+	 margin: 80px auto;
+ }
+ .wum_p p {
+	/* width: 1200px; */
+	 height: 41px;
+	 text-align: center;
+	 font-size: 30px;
+	 color: #333333;
+	 font-style: 微软雅黑;
+ }
+ 
+.div_li_1  li {
+	float: left;
+	width: 270px;
+	height: 70;
+	margin-left: 30px;
+}
+.time {
+	width:270px ;
+	height: 26px;
+	margin-top: 65px;
+	color: #999999;
+	font-size: 14px;
+	border-bottom: solid #E8E8E8 1px;
+}
+.text {
+	width: 270px;
+	color: #999999;
+	font-size: 14px;
+	margin-top: 10px;
+}
+ h5 {
+	 width:270px ;
+	 height:48px ;
+	 line-height: 48px;
+	 font-size: 20px;
+	 font-size: 18px;
+	 color: #333333;
+ }
+ .div_li_2 li {
+	 float: left;
+	 width: 270px;
+	 height: 70px;
+	 margin-left: 30px;
+ }
+ 
+ .div_li_3  li {
+	 float: left;
+	 width: 270px;
+	height: 70;
+	margin-left: 30px;
+ }
+ .div_li_4 li {
+	 float: left;
+	  width: 270px;
+	 height: 70;
+	 margin-left: 30px;
+	
+ }
+ 
+ 
+ 
+ 
+/* 底部 */
+ .foot {
+	width: 100%;
+	 height: 500px;
+	 margin: 0px auto;
+	  background-color: #F9F9F9;
+	
+ }
+ .boot {
+	 text-align: center;
+	 margin-top: 100px;
+	 color: #333333;
+	 font-family: 微软雅黑;
+	 font-size: 30px;
+	 padding-top: 70px;
+ }
+ .boot_1 img {
+	
+	 margin-top: 100px ;
+	margin-left: 170px;
+ }
+ 
+ 
+ /* 向下箭头 */
+     .to_bottom {
+            width: 0;
+            height: 0;
+            border-top: 10px solid skyblue;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+			margin-left: 595px;
+			margin-top: -10px;
+			
+        }
+
+ .to_bottom1 {
+            width: 0;
+            height: 0;
+            border-top: 10px solid skyblue;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+			margin-left: 595px;
+			margin-top: 20px;
+			
+        }
+		
+ .to_bottom2 {
+            width: 0;
+            height: 0;
+            border-top: 10px solid skyblue;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+ 			margin-left: 750px;
+ 			margin-top: 20px;
+ 			
+        }

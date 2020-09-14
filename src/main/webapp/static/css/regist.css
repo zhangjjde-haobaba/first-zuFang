@@ -1,0 +1,162 @@
+#sec_form{
+	border-top: 1px solid #FFA000;
+	padding: 20px 0px 30px 0px;
+	background: url(../img/login_back_ziru.jpg) no-repeat;
+	background-size: 100% 100%;
+	height: 450px;
+}
+.inner_form{
+	width: 350px;
+	height: 470px;
+	margin: 0 auto;
+	margin-top: -5px;
+	margin-right: 220px;
+	background-color: #FFFFFF;
+}
+
+/* .inner_form h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	color: #333;
+	margin-bottom: 10px;
+} */
+.sec_form_tag{
+	width: 330px;
+	padding-top: 40px;
+	margin: 0 auto;
+}
+.sec_form_tag h3{
+	margin-top: -30px;
+	font-size: 14px;
+	color: #666;
+	font-weight: bold;
+	line-height: 30px;
+}
+.sec_form_tag a{
+	font-size: 14px;
+	color: #06c;
+	line-height: 30px;
+}
+.sec_form_item{
+	width: 230px; /* 本来是280修改为230*/
+	height: 24px;
+	line-height: 24px;
+	border: 1px solid #ccc;
+	margin-left: 52px; /* 本来是40修改为52*/
+	margin-bottom: 10px;
+	padding: 15px 0;
+	border-radius: 9px;
+}
+.sec_form_header{
+	color: #666;
+	text-align: center;
+	margin-top: -30px;
+	margin-bottom: 10px;
+	margin-right: 14px;
+}
+.sec_form_header .hx{
+	color: #E6E6E6;
+}
+.sec_form_header .wz{
+	color: #999;
+}
+#phoneNum{
+	height: 20px;
+	width: 170px;
+	/* border: 1px solid red; */
+}
+#yzm{
+	height: 20px;
+	width: 100px;
+	/* border: 1px solid red; */
+}
+#getYzm{
+	/* height: 20px; */
+	width: 100px;
+	/* border: 1px solid red; */
+}
+#setPwd{
+	height: 20px;
+	width: 170px;
+	/* border: 1px solid red; */
+}
+#ensurePwd{
+	height: 20px;
+	width: 170px;
+	/* border: 1px solid red; */
+}
+.valid_item{
+	width: 120px;
+}
+.valid_btn{
+	display: block;
+	height: 54px;
+	width: 90px;
+	background-color: #D9D9D9; /* 修改背景色 改为#D9D9D9*/
+	border: 0px none;
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 65px; /* 新增*/
+}
+.sec_form_item input{
+	width: 100%;
+	height: 24px;
+	border: 0px none;
+	padding: 0px 24px;
+	font-size: 14px;
+	box-sizing: border-box;
+}
+.sec_reg_click{
+	width: 240px;
+	height: 35px;
+	/* line-height: 35px; */
+	padding-top: 14px;
+	color: #666;
+	margin-bottom: 10px;
+	margin-left: 52px;
+}
+.sec_reg_click a{
+	color: #06c;
+}
+.sec_reg_click a:hover{
+	color: #FFA000;
+}
+.sec_reg_click .agree{
+	color: #FFA000;
+}
+.sec_reg_click .agree:hover{
+	text-decoration: underline;
+}
+.sec_form_btn{
+	width: 230px;
+	height: 50px;
+	border: 0px none;
+	border-radius: 9px;
+	background-color: #FFA000;
+	font-size: 16px;
+	color: #fff;
+	cursor: pointer;
+	line-height: 50px;
+	margin-left: 52px;
+}
+
+.bottom {
+	font-size: 14px;
+	line-height: 14px;
+}
+.control-group {
+	margin-top: 20px;
+	position: relative;
+}
+.tc {
+	text-align: center;
+}
+#toSignup{
+	color: #FFA000;
+}
+#toSignup:hover{
+	text-decoration: underline;
+}
