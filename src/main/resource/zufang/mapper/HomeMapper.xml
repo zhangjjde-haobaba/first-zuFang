@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.kgc.zufang.mapper.HomeMapper">
+    <select id="queryHomeByRegionOrCommunity" resultType="com.kgc.zufang.beans.Home">
+        select home_id,
+        home_name,
+        home_region,
+        home_metro,
+        home_price,
+        home_type,
+        home_room,
+        home_hall,
+        home_area,
+        advantage_id,
+        home_layer,
+        home_floor,
+        home_intermediary,
+        home_orientation,
+        home_describe
+        from home
+        <where>
+            <if test="name!=null and name !=''">
+                and home_name like concat('%',#{name},'%') or home_region like  concat('%',#{name},'%')
+            </if>
+        </where>
+    </select>
+</mapper>

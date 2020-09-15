@@ -33,6 +33,15 @@ public class UserController {
         return "regist";
     }
 
+    @RequestMapping(value = "/tohomepage")
+    public String homepage(){
+        return "homePage";
+    }
+    @RequestMapping(value = "/jumpToMap")
+    public String toMap(){
+        return "map";
+    }
+
     @ResponseBody
     @RequestMapping(value = "/send")
     public boolean send(String phoneNum, String templateCode) {

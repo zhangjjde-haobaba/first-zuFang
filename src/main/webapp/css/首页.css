@@ -1,0 +1,520 @@
+body{
+				margin: 0px;
+				padding: 0px;
+				text-align: center;
+				position: relative;
+			}
+			#pic1{
+				height: 40px;
+				margin: 0% 3%;
+				vertical-align: middle;
+			}
+			#btn1{
+				vertical-align: middle;
+				border: none;
+				border-radius: 5px;
+				background-color: grey;
+			}
+			a{
+				text-decoration: none;
+				color: white;
+			}
+			a:hover{
+				cursor: pointer;
+				color: orange;
+			}
+			ul li{
+				list-style: none;
+			}
+			ul{
+				display: inline-block;
+				width: 70%;
+			}
+			.head{
+				background: #666666;
+				position: relative;
+				width:100%;
+				margin: 0px auto;
+			}
+			li{
+				display: inline-block;
+				margin-right: 2%;
+			}
+			#box1{
+				border: 2px solid white;
+				padding: 5px;
+				border-radius: 3px;
+			}
+			.cust_list_box{
+				border-radius: 5px;
+				position: relative;
+				background-color: #fff;
+				margin-top: 4px;
+				padding: 0px 0px;
+				border: 1px solid #e4e4e4;
+				position: absolute;
+				top:45px;
+				left: 254px;
+				width: 80px;
+				z-index: 100;
+				display: none;
+			}
+			.cust_list_box a{
+				color: black;
+				font-size: 14px;
+				text-align: center;
+			}
+			.cust_list_box a:hover{
+				color: grey;
+			}
+			.cust_list_box ul{
+				padding: 20px;
+				margin: 0px;
+			}
+			.cust_list_box ul li{
+				margin-top: 5px;
+			}
+			.mainbody{
+				background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/background-img.jpg);
+				width: 100%;
+				height: 600px ;
+				position: relative;
+				margin: 0px auto;
+			}
+			.title{
+				position: absolute;
+				font-size: 60px;
+				top: 70px;
+				left: 100px;
+				color: #FFFFFF;
+			}
+			.dutytitle{
+				position: absolute;
+				font-size: 30px;
+				top: 190px;
+				left: 100px;
+				color: #FFFFFF;
+			}
+			
+			.mainbody a{
+				text-decoration: none;
+				color: white;
+				font-size: 20px;
+			}
+			.mainbody ul li{
+				list-style: none;
+				margin-right: 20px;
+				display: inline-block;
+				float: left;
+			}
+			.mainbody a:hover{
+				color: orange;
+			}
+			.mainbody ul{
+				position: absolute;
+				top: 330px;
+				left: 65px;
+			}
+			.search{
+				position: absolute;
+				top: 380px;
+				left: 100px;
+			/* 	border: 1px solid grey; */
+			}
+			.search input{
+				width: 600px;
+				height: 60px;
+				border: 2px solid grey;
+				border-right: none;
+				font-size: 20px;
+			}
+			.btn1{
+				position: relative;
+				top: -3px;
+				width: 140px;
+				height: 60px;
+				font-size: 14px;
+				color: grey;
+				background-color: white;
+				border: 0;
+				border: 2px solid black;
+				border-right: 1px solid black;
+				
+			}
+			.btn1 img{
+				vertical-align: middle;
+			}
+			.btn2{
+				position: relative;
+				top: -1px;
+				/* width: 100px;
+				height: 58px; */
+				font-size: 14px;
+				color: white;
+				background-color: orange;
+				border: 0;
+				/* border: 2px solid orange; */
+			}
+			.middle{
+				margin: 10px auto;
+				width: 100%;
+				height: 200px;
+				background-color: #fff;
+			}
+			.middle ul{
+				list-style-type: none;
+				width: 97%;
+			}
+			.middle li{
+				float: left;
+				text-align: center;
+				margin-right: 80px;
+			}
+			.middle img{
+				width: 230px;
+				height: 140px ;
+				border-radius: 5px;
+				margin-top: 25px;
+				margin-right: 10px;
+			}
+			.middle img:hover{
+				animation: dynamic 1s infinite;
+			}
+			@keyframes dynamic{
+				0%{
+					transform: scale(1,1)
+				}
+				50%{
+					transform: scale(0.9,1.1)
+				}
+				100%{
+					transform: scale(1,1)
+				}
+			}
+			.controller{
+				margin-left: 80px;
+				position: relative;
+			}
+			.rent{
+				border: 1px solid grey;
+				border-radius: 4px;
+				width: 160px;
+				height: 80px;
+				position: absolute;
+				top: 140px;
+				left:35px ;
+				background-color: #fff;
+				box-shadow:0px 0px 10px 0px rgba(0,0,0,0.5);
+			}
+			
+			.rent h3{
+				margin-bottom: 0px;
+			}
+			.rent span{
+				color: grey;
+			}
+			.controller1{
+				position: relative;
+			}
+			.service{
+				border: 1px solid grey;
+				border-radius: 4px;
+				width: 160px;
+				height: 80px;
+				position: absolute;
+				top: 140px;
+				left:35px ;
+				background-color: #fff;
+				box-shadow:0px 0px 10px 0px rgba(0,0,0,0.5);
+			}
+			.service h3{
+				margin-bottom: 0px;
+			}
+			.service span{
+				color: grey;
+			}
+			.controller2{
+				position: relative;
+			}
+			.life{
+				border: 1px solid grey;
+				border-radius: 4px;
+				width: 160px;
+				height: 80px;
+				position: absolute;
+				top: 140px;
+				left:35px ;
+				background-color: #fff;
+				box-shadow:0px 0px 10px 0px rgba(0,0,0,0.5);
+			}
+			.life h3{
+				margin-bottom: 0px;
+			}
+			.life span{
+				color: grey;
+			}
+			.controller3{
+				position: relative;
+			}
+			.host{
+				border: 1px solid grey;
+				border-radius: 4px;
+				width: 160px;
+				height: 80px;
+				position: absolute;
+				top: 140px;
+				left:35px ;
+				background-color: #fff;
+				box-shadow:0px 0px 10px 0px rgba(0,0,0,0.5);
+			}
+			.host h3{
+				margin-bottom: 0px;
+			}
+			.host span{
+				color: grey;
+			}
+			.goodenv{
+				width: 100%;
+				height: 100px;
+				/* border: 1px solid black; */
+				margin-top: 50px;
+			}
+			.goodenv ul{
+				margin: 0px;
+				padding: 0px;
+				
+			}
+			.goodenv li{
+				margin: 0px;
+				padding: 0px;
+				list-style: none;
+				display: inline-block;
+				vertical-align: middle;
+			}
+			.goodenv h3{
+				text-align: center;
+				margin: 0px;
+				color: grey;
+			}
+			.back{
+				margin-top: 10px;
+			}
+			.surface{
+				position: absolute;
+				top: 1090px;
+				/*left: 221.8px;*/
+				margin-left: 221.8px;
+			}
+			.surface p{
+				color: white;
+				font-size: 16px;
+				text-align: center;
+				margin-top: 20px;
+			}
+			.playContainer li { position: relative; float: left; border: 25px solid #404040; color: #404040; height: 0; width:0; -webkit-border-radius: 100%; -moz-border-radius: 100%; -o-border-radius: 100%; border-radius: 100%; margin: 0 20px; }
+			 .playContainer { position: relative; float: left;  padding: 20px; }  
+			.playContainer li { position: relative; float: left; border: 25px solid #404040; color: #404040; height: 0; width:0; -webkit-border-radius: 100%; -moz-border-radius: 100%; -o-border-radius: 100%; border-radius: 100%; margin: 0 20px; }  
+			.playContainer a { border-style: solid; text-indent: -9999px; position: absolute; top: -8px; left: -3px;  }  
+			  
+			.playBtn a { border-color: transparent transparent transparent #fff; border-width: 8px 0 8px 12px;  width: 0; height: 0; }  
+			.pauseBtn a { border-color: transparent white;  border-width: 0 6px; height: 15px; width: 6px; left: -9px; }  
+			.stopBtn a { border: 7px solid #fff; height: 0; width: 0; left: -7px; top: -7px;}  
+			.playContainer{
+				position: absolute;
+				width: 60%;
+				z-index: 1;
+				top: 1300px;
+				left: 465px;
+			}
+			.comprerent{
+				width: 100%;
+				height: 100px;
+				/* border: 1px solid black; */
+				margin-top: 20px;
+			}
+			.comprerent ul{
+				margin: 0px;
+				padding: 0px;
+			}
+			.comprerent li{
+				margin: 0px;
+				padding: 0px;
+				list-style: none;
+				display: inline-block;
+				vertical-align: middle;
+			}
+			.comprerent h3{
+				text-align: center;
+				margin: 0px;
+				color: grey;
+			}
+			.onepiece{
+				position: relative;
+				/* border: 1px solid grey; */
+			}
+			ul li{
+				list-style: none;
+			}
+			.num ul{
+				width: 100%;
+			}
+			.num li{
+				/* display: inline-block; */
+				font-size: 50px;
+				color: grey;
+				opacity: 0.5;
+				/* margin-right: 265px; */
+			}
+			.ini1{
+				position: absolute;
+				top: -10px;
+				left: 238px;
+			}
+			.ini2{
+				position: absolute;
+				top: -10px;
+				left: 560px;
+			}
+			.ini3{
+				position: absolute;
+				top: -10px;
+				left: 894px;
+			}
+			
+			.first{
+				margin-left: -20px;
+			}
+			.text li{
+				display: inline-block;
+				font-size: 30px;
+				margin-right: 205px;
+			}
+			.second{
+				margin-left: 142px;
+			}
+			
+			.text li:nth-child(1){
+				position: absolute;
+				top: 26px;
+				left: 58px;
+			}
+			.text li:nth-child(2){
+				position: absolute;
+				top: 26px;
+				left: 525px;
+			}
+			.text li:nth-child(3){
+				position: absolute;
+				top: 26px;
+				left: 860px;
+			}
+			.assimg{
+				margin-top: 40px;
+				text-align: right;
+			}
+			.assimg li{
+				display: inline-block;
+				display: none;
+			}
+			.assimg>li{
+				text-align: right;
+			}
+			.text li:hover{
+				cursor: pointer;
+			}
+			h4{
+				color: grey;
+			}
+			.txt span{
+				color: grey;
+				margin-left: 20px;
+			}
+			.document li{
+				display: none;
+			}
+			.txt{
+				border: 1px solid black;
+				position: absolute;
+				width: 380px;
+				height: 210px;
+				left: -67px;
+				box-shadow:0px 0px 10px 0px rgba(0,0,0,0.5);
+			}
+			.txt h3{
+				margin-top: 20px;
+				margin-left: 20px;
+			}
+			.txt h4{
+				margin-left: 20px;
+				margin-bottom: 20px;
+			}
+			.txt span:nth-child(5){
+				margin-bottom: 20px;
+			}
+			.document{
+				position: absolute;
+				top: 1900px;
+				left: 140px;
+			}
+			.box{
+				height:400px ;
+				width:100% ;
+				/* background-color: #00cc66; */
+				margin: 80px auto;
+			}
+			.container{
+				width:284.2px ;
+				height:200px ;
+				background-color: #FFFF00;
+				position: relative;
+				overflow: hidden;/*隐藏溢出 超出的内容不显示*/
+				float: left;
+			}
+			.container img{
+				width: 350px;
+				height: 200px ;
+			}
+			.container .mask{
+				position: absolute;
+				top: 50px;
+				left: 100px;
+				width:100px ;
+				height: 100px;
+				/* background-color: #9900ff; */
+				border: 50px solid rgba(0,0,0,0.5);/* red green blue a:透明度*/
+				box-sizing: border-box;
+				border-radius: 50%;
+				/* 覆盖到整个div */
+				transform: scale(4);
+				/*过渡*/
+				transition: 2s;
+			}
+			
+			
+			.container:hover .mask{
+				border: 1px solid rgba(0,0,0,0.5);
+			}
+			.root a{
+				text-decoration: none;
+				color: black;
+			}
+			.floor1 li{
+				display: inline-block;
+				line-height: 60px;
+				font-size: 20px;
+				margin-right: 50px;
+			}
+			.floor1 li:nth-child(1){
+				margin-left: 30px;
+			}
+			.floor3{
+				background-color: grey;
+				height: 130px;
+			}
+			.floor3 img{
+				float: left;
+			}
+			.special a{
+				color: #808080;
+				font-size: 16px;
+			}

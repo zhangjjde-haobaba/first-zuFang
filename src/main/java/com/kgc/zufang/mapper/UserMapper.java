@@ -8,4 +8,7 @@ import com.kgc.zufang.beans.User;
 public interface UserMapper {
 
     int register(User user);
+
+
+
 }

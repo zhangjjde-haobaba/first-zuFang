@@ -4,7 +4,7 @@
     <title>$Title$</title>
   </head>
   <body>
-  <a href="toLogin" >toLogin</a>
+  <a href="tohomepage" >toLogin</a>
   </body>
 
   <script src="${pageContext.request.contextPath}/js/jquery-3.5.1.min.js"></script>
